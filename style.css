@@ -1,0 +1,305 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+   
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  nav ul input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: white ;
+  } 
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  footer .social-media {
+    display: flex;
+  }
+  footer .social-media p{
+    margin-right: 15px;
+border: 1px solid white;
+padding: 5px;
+text-align: center;
+width: 20px;
+border-radius: 100%;
+cursor: pointer;
+  }
+
+
+  .produits_texte{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: #424144;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+  }
+
+  .produits{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+  }
+
+  .section_produits{
+    padding: 40px 5%;
+  }
+
+  .produits .carte{
+    width: 310px;
+    background: #f5f5f5;
+    bottom: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .produits .carte img{
+    height: 250px;
+    width: 100%;
+  }
+
+  .produits .carte .desc{
+    padding: 5px 20px;
+    opacity: 0.8;
+  }
+
+  .produits .carte .titre{
+    font-weight: 900;
+    font-size: 20px;
+    color: #333;
+    padding: 0 20px;
+  }
+
+  .produits .carte .box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .produits .carte .prix{
+    color: #ec0b0b;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .produits .carte .button{
+    font-size: 13px;
+    font-weight: 900;
+    color: #ec0b0b;
+    padding: 10px 18px;
+    border-radius: 5px;
+  }
+
+  .produits .carte .box .achat{
+    cursor: pointer;
+    background: #333;
+    color: white;
+  }
+  nav .onglets input{
+margin: 8px 20px;
+padding: 15px;
+border-radius: 30px;
+border: none;
+outline: none;
+background-color: white;
+
+  }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: century;
+}
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+width: 100%;
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+background-position: center;
+background-size: cover;
+height: 109vh;
+background-image: url(img/11.jpg);
+}
+.navaber{
+width: 1200px;
+height: 75px;
+margin: auto;
+}
+.icon{
+width: 200px;
+float: left;
+height: 70px;
+}
+.logo{
+color:rgba(0, 55, 255, 0.921);
+font-size: 35px;
+font-family: Arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+}
+.content{
+width: 1200px;
+height: auto;
+margin: auto;
+color: #fff;
+position: relative;
+}
+.content{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background:orange;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.content .cn {
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color:white;
+}
+.from{
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  position: right;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.from h2{
+  width:190px;
+  font-family: sans-serif;
+  text-align: center;
+  color: orange;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.from input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orange;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.from input:focus{
+outline: none;
+}
+
+
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: orange;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  }
+  .btnn:hover{
+    background: white;
+    color: orange;
+  }
+.from .link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+.from .link a{
+  text-decoration: none;
+  color: orange;
+}
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.social-media {
+  display: flex;
+}
+.social-media p{
+  margin-right: 15px;
+color: orange;
+padding: 5px;
+text-align: center;
+width: 20px;
+cursor: pointer;
+}
+.social-media:hover{
+  color: orange;
+}
